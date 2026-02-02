@@ -1,20 +1,25 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <div class="logo">
+      <img src="assets/logo.png" alt="logo">
+    </div>
+    <br>
+    <div class="texto">
+      <ion-title>
+        SERVICIOS
+      </ion-title>
+    </div>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content fullscreen>
+  <video id="bg-video" autoplay muted loop playsinline>
+    <source src="assets/video.mp4" type="video/mp4">
+  </video>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title size="small">DESDE 2001</ion-title>
+  </ion-toolbar>
+</ion-footer>
