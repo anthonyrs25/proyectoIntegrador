@@ -35,3 +35,22 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import '@ionic/angular/css/palettes/dark.system.css';
+
+:root {
+  --color-bg: #0b0b0d;
+  --color-surface: #141418;
+  --color-text: #eaeaf0;
+
+  --color-blue: #1f8bff;
+  --color-red: #ff3b3b;
+  --color-magenta: #ff2f92;
+
+  --radius-lg: 18px;
+  --radius-md: 12px;
+  --blur-glass: blur(14px);
+}
+
+.login-modal-wrapper {
+  --height: auto;
+  --border-radius: 18px;
+}

@@ -1,25 +1,11 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <div class="logo">
-      <img src="assets/logo.png" alt="logo">
-    </div>
-    <br>
-    <div class="texto">
-      <ion-title>
-        SERVICIOS
-      </ion-title>
-    </div>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content fullscreen>
-  <video id="bg-video" autoplay muted loop playsinline>
+<section class="hero">
+  <video autoplay muted loop>
     <source src="assets/video.mp4" type="video/mp4">
   </video>
-</ion-content>
 
-<ion-footer>
-  <ion-toolbar>
-    <ion-title size="small">DESDE 2001</ion-title>
-  </ion-toolbar>
-</ion-footer>
+  <div class="hero-overlay">
+    <h1>Ingeniería Automotriz de Precisión</h1>
+    <p>Más de 20 años impulsando vehículos en Cuenca</p>
+    <button routerLink="/servicios">Ver servicios</button>
+  </div>
+</section>
